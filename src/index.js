@@ -37,6 +37,9 @@ const modules = [
 
   // Signed exams page
   require("./modules/signedExamListFixes"),
+
+  // Firefox tooltip fix
+  require("./modules/firefoxTooltipFix"),
 ];
 
 (async () => {
